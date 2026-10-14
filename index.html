@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dashboard de comisiones, conversiones y engagement de una creadora de contenido.">
+  <title>Creator Studio · Resultados</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-zinc-50 font-['DM_Sans'] text-zinc-800 antialiased">
+  <a href="#contenido" class="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-white focus:p-4">Saltar al contenido</a>
+  <header class="border-b border-zinc-200 bg-white">
+    <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-5 py-5 sm:px-8">
+      <a href="#" class="flex items-center gap-3" aria-label="Creator Studio, inicio">
+        <span class="flex size-9 items-center justify-center rounded-lg bg-emerald-800 font-['Manrope'] text-lg font-extrabold text-white" aria-hidden="true">c.</span>
+        <span class="font-['Manrope'] text-lg font-extrabold">creator<span class="font-medium text-zinc-500">studio</span></span>
+      </a>
+      <nav aria-label="Secciones del dashboard" class="order-3 flex w-full gap-6 text-sm font-medium sm:order-none sm:w-auto">
+        <a href="#resultados" class="text-emerald-800 hover:underline">Resultados</a>
+        <a href="#drivers" class="text-zinc-500 hover:text-zinc-900">Drivers</a>
+        <a href="#detalle" class="text-zinc-500 hover:text-zinc-900">Detalle</a>
+      </nav>
+      <div class="flex items-center gap-2 text-sm"><span class="flex size-8 items-center justify-center rounded-full bg-rose-100 font-semibold text-rose-800" aria-hidden="true">LV</span><span class="hidden sm:inline">Lucía Vega</span></div>
+    </div>
+  </header>
+
+  <main id="contenido" class="mx-auto max-w-7xl space-y-10 px-5 py-8 sm:px-8 sm:py-10">
+    <div class="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+      <div><p class="mb-2 text-xs font-bold uppercase tracking-widest text-emerald-700">Tu negocio, en perspectiva</p><h1 class="font-['Manrope'] text-3xl font-extrabold sm:text-4xl">Resumen de resultados</h1><p class="mt-3 text-sm text-zinc-500">Tres plataformas. Tres productos. Una visión de lo que importa.</p></div>
+      <div class="text-sm sm:text-right"><p class="font-semibold">1–30 septiembre 2026</p><p class="mt-1 text-xs text-zinc-500">Datos de ejemplo · Comisión del 15 %</p></div>
+    </div>
+
+    <section id="resultados" aria-labelledby="titulo-resultados" class="scroll-mt-6">
+      <div class="mb-4 flex items-baseline justify-between gap-3"><h2 id="titulo-resultados" class="font-['Manrope'] text-lg font-bold">01 / Resultados</h2><span class="text-xs text-zinc-500">Frente a agosto</span></div>
+      <dl class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="rounded-lg border border-zinc-200 bg-white p-5">
+          <dt class="text-sm text-zinc-500">Comisiones generadas</dt><dd class="mt-3 font-['Manrope'] text-3xl font-extrabold tabular-nums">3.060 €</dd><dd class="mt-4 text-xs"><span class="font-bold text-emerald-700">+18,6 %</span> <span class="text-zinc-500">vs. agosto</span></dd><dd class="mt-2 text-xs text-zinc-500">Tus ingresos antes de costes</dd>
+        </div>
+        <div class="rounded-lg border border-zinc-200 bg-white p-5">
+          <dt class="text-sm text-zinc-500">Ventas atribuidas</dt><dd class="mt-3 font-['Manrope'] text-3xl font-extrabold tabular-nums">270</dd><dd class="mt-4 text-xs"><span class="font-bold text-emerald-700">+12,5 %</span> <span class="text-zinc-500">vs. agosto</span></dd><dd class="mt-2 text-xs text-zinc-500">20.400 € vendidos · Ticket medio 75,56 €</dd>
+        </div>
+        <div class="rounded-lg border border-zinc-200 bg-white p-5">
+          <dt class="text-sm text-zinc-500">Conversión sobre alcance</dt><dd class="mt-3 font-['Manrope'] text-3xl font-extrabold tabular-nums">0,15 %</dd><dd class="mt-4 text-xs"><span class="font-bold text-emerald-700">+0,03 puntos</span> <span class="text-zinc-500">vs. agosto</span></dd><dd class="mt-2 text-xs text-zinc-500">270 ventas / 180.000 de alcance*</dd>
+        </div>
+        <div class="rounded-lg border border-zinc-200 bg-white p-5">
+          <dt class="text-sm text-zinc-500">ROI de comisiones</dt><dd class="mt-3 font-['Manrope'] text-3xl font-extrabold tabular-nums">240 %</dd><dd class="mt-4 text-xs"><span class="font-bold text-emerald-700">+25 puntos</span> <span class="text-zinc-500">vs. agosto</span></dd><dd class="mt-2 text-xs text-zinc-500">900 € de costes · 2.160 € de beneficio</dd>
+        </div>
+      </dl>
+      <p class="mt-3 text-xs leading-relaxed text-zinc-500">* Alcance agregado, sin deduplicar personas entre plataformas. ROI = (comisiones − costes) / costes. Los costes corresponden a estas campañas.</p>
+    </section>
+
+    <section id="drivers" aria-labelledby="titulo-drivers" class="scroll-mt-6">
+      <div class="mb-5"><h2 id="titulo-drivers" class="font-['Manrope'] text-lg font-bold">02 / Qué mueve tus resultados</h2><p class="mt-1 text-sm text-zinc-500">De la atención a la compra: dónde funciona y dónde mejorar.</p></div>
+      <div class="grid grid-cols-1 gap-x-8 gap-y-8 md:grid-cols-2">
+        <figure class="min-w-0 border-t border-zinc-200 pt-5">
+          <figcaption class="mb-5 flex flex-wrap items-center justify-between gap-2"><h3 class="font-['Manrope'] font-bold">Funnel de ventas</h3><span class="text-xs text-zinc-500">Conversión entre etapas</span></figcaption>
+          <ol class="space-y-4 text-sm">
+            <li><div class="mb-2 flex justify-between gap-2"><span>Alcance</span><span class="font-bold tabular-nums">180.000</span></div><div class="h-3 rounded-sm bg-zinc-200"><div class="h-full w-full rounded-sm bg-emerald-800"></div></div><p class="mt-1 text-xs text-zinc-500">Base del funnel</p></li>
+            <li><div class="mb-2 flex justify-between gap-2"><span>Clics</span><span class="font-bold tabular-nums">9.000</span></div><div class="h-3 rounded-sm bg-zinc-200"><div class="h-full w-1/20 rounded-sm bg-emerald-600"></div></div><p class="mt-1 text-xs text-zinc-500">5 % del alcance · CTR sobre impresiones: 3,46 %</p></li>
+            <li><div class="mb-2 flex justify-between gap-2"><span>Leads cualificados</span><span class="font-bold tabular-nums">1.350</span></div><div class="h-3 rounded-sm bg-zinc-200"><div class="h-full w-3/400 rounded-sm bg-emerald-500"></div></div><p class="mt-1 text-xs text-zinc-500">15 % de los clics</p></li>
+            <li><div class="mb-2 flex justify-between gap-2"><span>Compras</span><span class="font-bold tabular-nums">270</span></div><div class="h-3 rounded-sm bg-zinc-200"><div class="h-full w-3/2000 rounded-sm bg-emerald-400"></div></div><p class="mt-1 text-xs text-zinc-500">20 % de los leads · 0,15 % del alcance</p></li>
+          </ol>
+          <p class="mt-4 text-xs text-zinc-500">Barras sobre el alcance total · 260.000 impresiones</p>
+        </figure>
+        <figure class="min-w-0 border-t border-zinc-200 pt-5">
+          <figcaption class="mb-5"><h3 class="font-['Manrope'] font-bold">Comisiones por plataforma</h3><p class="mt-1 text-xs text-zinc-500">Instagram aporta el 43,1 % de tus ingresos.</p></figcaption>
+          <ul class="space-y-5">
+            <li><div class="mb-2 flex justify-between gap-2 text-sm"><span class="font-medium">Instagram</span><span class="font-bold">1.320 €</span></div><div class="h-5 rounded-sm bg-zinc-200"><div class="h-full w-full rounded-sm bg-rose-400"></div></div><p class="mt-2 text-xs text-zinc-500">110 ventas · ROI 277,1 %</p></li>
+            <li><div class="mb-2 flex justify-between gap-2 text-sm"><span class="font-medium">TikTok</span><span class="font-bold">1.020 €</span></div><div class="h-5 rounded-sm bg-zinc-200"><div class="h-full w-17/22 rounded-sm bg-zinc-700"></div></div><p class="mt-2 text-xs text-zinc-500">100 ventas · ROI 240 %</p></li>
+            <li><div class="mb-2 flex justify-between gap-2 text-sm"><span class="font-medium">YouTube</span><span class="font-bold">720 €</span></div><div class="h-5 rounded-sm bg-zinc-200"><div class="h-full w-6/11 rounded-sm bg-amber-500"></div></div><p class="mt-2 text-xs text-zinc-500">60 ventas · ROI 188 %</p></li>
+          </ul>
+          <p class="mt-5 border-l-2 border-emerald-600 pl-3 text-sm">YouTube tiene la mejor conversión: <strong>0,20 %</strong>.</p>
+        </figure>
+        <figure class="min-w-0 border-t border-zinc-200 pt-5">
+          <figcaption class="mb-5"><h3 class="font-['Manrope'] font-bold">Qué productos funcionan</h3><p class="mt-1 text-xs text-zinc-500">Comisiones generadas y conversión sobre alcance.</p></figcaption>
+          <ul class="space-y-4 text-sm">
+            <li><div class="mb-2 flex justify-between gap-2"><span>A · Sérum facial</span><strong>900 €</strong></div><div class="h-3 rounded-sm bg-zinc-200"><div class="h-full w-5/6 rounded-sm bg-emerald-600"></div></div><p class="mt-1 text-xs text-zinc-500">120 ventas · Conversión 0,18 %</p></li>
+            <li><div class="mb-2 flex justify-between gap-2"><span>B · Zapatillas</span><strong>1.080 €</strong></div><div class="h-3 rounded-sm bg-zinc-200"><div class="h-full w-full rounded-sm bg-emerald-800"></div></div><p class="mt-1 text-xs text-zinc-500">60 ventas · Conversión 0,12 %</p></li>
+            <li><div class="mb-2 flex justify-between gap-2"><span>C · Mochila urbana</span><strong>1.080 €</strong></div><div class="h-3 rounded-sm bg-zinc-200"><div class="h-full w-full rounded-sm bg-emerald-800"></div></div><p class="mt-1 text-xs text-zinc-500">90 ventas · Conversión 0,14 %</p></li>
+          </ul>
+          <p class="mt-4 text-xs text-zinc-500">B y C lideran en comisiones; A convierte mejor.</p>
+        </figure>
+        <div class="min-w-0 border-t border-zinc-200 pt-5">
+          <h3 class="font-['Manrope'] font-bold">Engagement y actividad</h3><p class="mt-1 text-xs text-zinc-500">13.200 interacciones · Engagement agregado 7,33 %</p>
+          <ul class="mt-5 divide-y divide-zinc-200 text-sm">
+            <li class="pb-4"><div class="flex justify-between gap-3"><strong>Instagram</strong><span class="font-bold text-rose-700">7 %</span></div><p class="mt-1 text-xs text-zinc-500">4.200 interacciones · 8 posts, 6 reels, 24 stories</p></li>
+            <li class="py-4"><div class="flex justify-between gap-3"><strong>TikTok</strong><span class="font-bold">8 %</span></div><p class="mt-1 text-xs text-zinc-500">7.200 interacciones · 18 vídeos</p></li>
+            <li class="pt-4"><div class="flex justify-between gap-3"><strong>YouTube</strong><span class="font-bold text-amber-700">6 %</span></div><p class="mt-1 text-xs text-zinc-500">1.800 interacciones · 4 vídeos, 6 shorts</p></li>
+          </ul>
+          <p class="mt-5 text-xs text-zinc-500">Engagement = interacciones / alcance. Desglose en las fichas de plataformas y productos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="detalle" aria-labelledby="titulo-detalle" class="scroll-mt-6 space-y-8">
+      <div><h2 id="titulo-detalle" class="font-['Manrope'] text-lg font-bold">03 / El detalle de tu negocio</h2><p class="mt-1 text-sm text-zinc-500">Productos, plataformas y campañas del periodo.</p></div>
+      <section aria-labelledby="titulo-productos">
+        <div class="mb-4 flex flex-wrap items-baseline justify-between gap-2"><h3 id="titulo-productos" class="font-['Manrope'] font-bold">Productos</h3><span class="text-xs text-zinc-500">Top comisiones: B y C · Mejor conversión: A</span></div>
+        <ul class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <li class="min-w-0 rounded-lg border border-zinc-200 bg-white p-5">
+            <div class="flex items-center gap-3"><img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&amp;fit=crop&amp;w=160&amp;h=160&amp;q=80" alt="Frasco de cuidado facial" loading="lazy" class="size-14 shrink-0 rounded-md object-contain"><div class="min-w-0"><h4 class="font-bold">A · Sérum facial</h4><p class="text-xs text-zinc-500">Belleza · 50 €</p></div></div>
+            <dl class="mt-5 grid grid-cols-2 gap-4"><div><dt class="text-xs text-zinc-500">Comisiones</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">900 €</dd></div><div><dt class="text-xs text-zinc-500">Ventas</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">120</dd></div><div class="col-span-2 flex justify-between gap-2 text-sm"><dt>Conversión</dt><dd class="font-bold">0,18 %</dd></div></dl>
+            <details class="mt-4 border-t border-zinc-100 pt-3"><summary class="cursor-pointer rounded-sm text-sm font-semibold text-emerald-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-700">Ver detalles</summary><dl class="mt-4 space-y-2 text-sm">
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Comisión por venta</dt><dd class="min-w-0 break-words text-right font-medium">7,50 €</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Importe vendido</dt><dd class="min-w-0 break-words text-right font-medium">6.000 €</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Costes</dt><dd class="min-w-0 break-words text-right font-medium">250 €</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">ROI</dt><dd class="min-w-0 break-words text-right font-medium">260 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Alcance</dt><dd class="min-w-0 break-words text-right font-medium">65.000</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Interacciones</dt><dd class="min-w-0 break-words text-right font-medium">4.550</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Engagement</dt><dd class="min-w-0 break-words text-right font-medium">7 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Campaña</dt><dd class="min-w-0 break-words text-right font-medium">Glow diario</dd></div>
+            </dl></details>
+          </li>
+          <li class="min-w-0 rounded-lg border border-zinc-200 bg-white p-5">
+            <div class="flex items-center gap-3"><img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&amp;fit=crop&amp;w=160&amp;h=160&amp;q=80" alt="Zapatillas deportivas" loading="lazy" class="size-14 shrink-0 rounded-md object-contain"><div class="min-w-0"><h4 class="font-bold">B · Zapatillas</h4><p class="text-xs text-zinc-500">Lifestyle · 120 €</p></div></div>
+            <dl class="mt-5 grid grid-cols-2 gap-4"><div><dt class="text-xs text-zinc-500">Comisiones</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">1.080 €</dd></div><div><dt class="text-xs text-zinc-500">Ventas</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">60</dd></div><div class="col-span-2 flex justify-between gap-2 text-sm"><dt>Conversión</dt><dd class="font-bold">0,12 %</dd></div></dl>
+            <details class="mt-4 border-t border-zinc-100 pt-3"><summary class="cursor-pointer rounded-sm text-sm font-semibold text-emerald-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-700">Ver detalles</summary><dl class="mt-4 space-y-2 text-sm">
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Comisión por venta</dt><dd class="min-w-0 break-words text-right font-medium">18 €</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Importe vendido</dt><dd class="min-w-0 break-words text-right font-medium">7.200 €</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Costes</dt><dd class="min-w-0 break-words text-right font-medium">350 €</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">ROI</dt><dd class="min-w-0 break-words text-right font-medium">208,6 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Alcance</dt><dd class="min-w-0 break-words text-right font-medium">50.000</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Interacciones</dt><dd class="min-w-0 break-words text-right font-medium">3.000</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Engagement</dt><dd class="min-w-0 break-words text-right font-medium">6 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Campaña</dt><dd class="min-w-0 break-words text-right font-medium">Cada paso cuenta</dd></div>
+            </dl></details>
+          </li>
+          <li class="min-w-0 rounded-lg border border-zinc-200 bg-white p-5">
+            <div class="flex items-center gap-3"><img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&amp;fit=crop&amp;w=160&amp;h=160&amp;q=80" alt="Mochila urbana" loading="lazy" class="size-14 shrink-0 rounded-md object-contain"><div class="min-w-0"><h4 class="font-bold">C · Mochila urbana</h4><p class="text-xs text-zinc-500">Accesorios · 80 €</p></div></div>
+            <dl class="mt-5 grid grid-cols-2 gap-4"><div><dt class="text-xs text-zinc-500">Comisiones</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">1.080 €</dd></div><div><dt class="text-xs text-zinc-500">Ventas</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">90</dd></div><div class="col-span-2 flex justify-between gap-2 text-sm"><dt>Conversión</dt><dd class="font-bold">0,14 %</dd></div></dl>
+            <details class="mt-4 border-t border-zinc-100 pt-3"><summary class="cursor-pointer rounded-sm text-sm font-semibold text-emerald-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-700">Ver detalles</summary><dl class="mt-4 space-y-2 text-sm">
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Comisión por venta</dt><dd class="min-w-0 break-words text-right font-medium">12 €</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Importe vendido</dt><dd class="min-w-0 break-words text-right font-medium">7.200 €</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Costes</dt><dd class="min-w-0 break-words text-right font-medium">300 €</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">ROI</dt><dd class="min-w-0 break-words text-right font-medium">260 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Alcance</dt><dd class="min-w-0 break-words text-right font-medium">65.000</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Interacciones</dt><dd class="min-w-0 break-words text-right font-medium">5.650</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Engagement</dt><dd class="min-w-0 break-words text-right font-medium">8,69 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Campaña</dt><dd class="min-w-0 break-words text-right font-medium">Vuelta a la rutina</dd></div>
+            </dl></details>
+          </li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="titulo-plataformas">
+        <div class="mb-4 flex flex-wrap items-baseline justify-between gap-2"><h3 id="titulo-plataformas" class="font-['Manrope'] font-bold">Plataformas</h3><span class="text-xs text-zinc-500">Mejor ROI: Instagram · Mejor engagement: TikTok</span></div>
+        <ul class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <li class="min-w-0 rounded-lg border border-zinc-200 bg-white p-5">
+            <div class="flex items-center gap-3"><img src="https://cdn.simpleicons.org/instagram/3f3f46" alt="Instagram" loading="lazy" class="size-14 shrink-0 rounded-md object-contain"><div class="min-w-0"><h4 class="font-bold">Instagram</h4><p class="text-xs text-zinc-500">Comunidad que compra</p></div></div>
+            <dl class="mt-5 grid grid-cols-2 gap-4"><div><dt class="text-xs text-zinc-500">Comisiones</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">1.320 €</dd></div><div><dt class="text-xs text-zinc-500">Engagement</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">7 %</dd></div><div class="col-span-2 flex justify-between gap-2 text-sm"><dt>Conversión</dt><dd class="font-bold">0,18 %</dd></div></dl>
+            <details class="mt-4 border-t border-zinc-100 pt-3"><summary class="cursor-pointer rounded-sm text-sm font-semibold text-emerald-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-700">Ver detalles</summary><dl class="mt-4 space-y-2 text-sm">
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Alcance</dt><dd class="min-w-0 break-words text-right font-medium">60.000</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Ventas</dt><dd class="min-w-0 break-words text-right font-medium">110</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Costes</dt><dd class="min-w-0 break-words text-right font-medium">350 €</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">ROI</dt><dd class="min-w-0 break-words text-right font-medium">277,1 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Me gusta</dt><dd class="min-w-0 break-words text-right font-medium">2.800</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Comentarios</dt><dd class="min-w-0 break-words text-right font-medium">400</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Compartidos</dt><dd class="min-w-0 break-words text-right font-medium">500</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Guardados</dt><dd class="min-w-0 break-words text-right font-medium">500</dd></div>
+            </dl></details>
+          </li>
+          <li class="min-w-0 rounded-lg border border-zinc-200 bg-white p-5">
+            <div class="flex items-center gap-3"><img src="https://cdn.simpleicons.org/tiktok/3f3f46" alt="TikTok" loading="lazy" class="size-14 shrink-0 rounded-md object-contain"><div class="min-w-0"><h4 class="font-bold">TikTok</h4><p class="text-xs text-zinc-500">Mayor alcance y engagement</p></div></div>
+            <dl class="mt-5 grid grid-cols-2 gap-4"><div><dt class="text-xs text-zinc-500">Comisiones</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">1.020 €</dd></div><div><dt class="text-xs text-zinc-500">Engagement</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">8 %</dd></div><div class="col-span-2 flex justify-between gap-2 text-sm"><dt>Conversión</dt><dd class="font-bold">0,11 %</dd></div></dl>
+            <details class="mt-4 border-t border-zinc-100 pt-3"><summary class="cursor-pointer rounded-sm text-sm font-semibold text-emerald-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-700">Ver detalles</summary><dl class="mt-4 space-y-2 text-sm">
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Alcance</dt><dd class="min-w-0 break-words text-right font-medium">90.000</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Ventas</dt><dd class="min-w-0 break-words text-right font-medium">100</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Costes</dt><dd class="min-w-0 break-words text-right font-medium">300 €</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">ROI</dt><dd class="min-w-0 break-words text-right font-medium">240 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Me gusta</dt><dd class="min-w-0 break-words text-right font-medium">5.000</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Comentarios</dt><dd class="min-w-0 break-words text-right font-medium">600</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Compartidos</dt><dd class="min-w-0 break-words text-right font-medium">1.000</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Guardados</dt><dd class="min-w-0 break-words text-right font-medium">600</dd></div>
+            </dl></details>
+          </li>
+          <li class="min-w-0 rounded-lg border border-zinc-200 bg-white p-5">
+            <div class="flex items-center gap-3"><img src="https://cdn.simpleicons.org/youtube/3f3f46" alt="YouTube" loading="lazy" class="size-14 shrink-0 rounded-md object-contain"><div class="min-w-0"><h4 class="font-bold">YouTube</h4><p class="text-xs text-zinc-500">La mejor conversión</p></div></div>
+            <dl class="mt-5 grid grid-cols-2 gap-4"><div><dt class="text-xs text-zinc-500">Comisiones</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">720 €</dd></div><div><dt class="text-xs text-zinc-500">Engagement</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">6 %</dd></div><div class="col-span-2 flex justify-between gap-2 text-sm"><dt>Conversión</dt><dd class="font-bold">0,20 %</dd></div></dl>
+            <details class="mt-4 border-t border-zinc-100 pt-3"><summary class="cursor-pointer rounded-sm text-sm font-semibold text-emerald-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-700">Ver detalles</summary><dl class="mt-4 space-y-2 text-sm">
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Alcance</dt><dd class="min-w-0 break-words text-right font-medium">30.000</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Ventas</dt><dd class="min-w-0 break-words text-right font-medium">60</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Costes</dt><dd class="min-w-0 break-words text-right font-medium">250 €</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">ROI</dt><dd class="min-w-0 break-words text-right font-medium">188 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Me gusta</dt><dd class="min-w-0 break-words text-right font-medium">1.200</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Comentarios</dt><dd class="min-w-0 break-words text-right font-medium">300</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Compartidos</dt><dd class="min-w-0 break-words text-right font-medium">250</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Guardados en listas</dt><dd class="min-w-0 break-words text-right font-medium">50</dd></div>
+            </dl></details>
+          </li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="titulo-campanas">
+        <div class="mb-4 flex flex-wrap items-baseline justify-between gap-2"><h3 id="titulo-campanas" class="font-['Manrope'] font-bold">Campañas</h3><span class="text-xs text-zinc-500">Top ROI: Glow diario y Vuelta a la rutina</span></div>
+        <ul class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <li class="min-w-0 rounded-lg border border-zinc-200 bg-white p-5">
+            <div class="flex items-center gap-3"><img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&amp;fit=crop&amp;w=160&amp;h=160&amp;q=80" alt="Frasco de cuidado facial" loading="lazy" class="size-14 shrink-0 rounded-md object-contain"><div class="min-w-0"><h4 class="font-bold">Glow diario</h4><p class="text-xs text-zinc-500">Producto A · Finalizada</p></div></div>
+            <dl class="mt-5 grid grid-cols-2 gap-4"><div><dt class="text-xs text-zinc-500">Comisiones</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">900 €</dd></div><div><dt class="text-xs text-zinc-500">Ventas</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">120</dd></div><div class="col-span-2 flex justify-between gap-2 text-sm"><dt>Conversión</dt><dd class="font-bold">0,18 %</dd></div></dl>
+            <details class="mt-4 border-t border-zinc-100 pt-3"><summary class="cursor-pointer rounded-sm text-sm font-semibold text-emerald-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-700">Ver detalles</summary><dl class="mt-4 space-y-2 text-sm">
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Fechas</dt><dd class="min-w-0 break-words text-right font-medium">1–10 septiembre 2026</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Plataformas</dt><dd class="min-w-0 break-words text-right font-medium">Instagram, TikTok y YouTube</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Alcance</dt><dd class="min-w-0 break-words text-right font-medium">65.000</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Conversión</dt><dd class="min-w-0 break-words text-right font-medium">0,18 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Costes</dt><dd class="min-w-0 break-words text-right font-medium">250 €</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">ROI</dt><dd class="min-w-0 break-words text-right font-medium">260 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Engagement</dt><dd class="min-w-0 break-words text-right font-medium">7 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Interacciones</dt><dd class="min-w-0 break-words text-right font-medium">4.550</dd></div>
+            </dl></details>
+          </li>
+          <li class="min-w-0 rounded-lg border border-zinc-200 bg-white p-5">
+            <div class="flex items-center gap-3"><img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&amp;fit=crop&amp;w=160&amp;h=160&amp;q=80" alt="Zapatillas deportivas" loading="lazy" class="size-14 shrink-0 rounded-md object-contain"><div class="min-w-0"><h4 class="font-bold">Cada paso cuenta</h4><p class="text-xs text-zinc-500">Producto B · Finalizada</p></div></div>
+            <dl class="mt-5 grid grid-cols-2 gap-4"><div><dt class="text-xs text-zinc-500">Comisiones</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">1.080 €</dd></div><div><dt class="text-xs text-zinc-500">Ventas</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">60</dd></div><div class="col-span-2 flex justify-between gap-2 text-sm"><dt>Conversión</dt><dd class="font-bold">0,12 %</dd></div></dl>
+            <details class="mt-4 border-t border-zinc-100 pt-3"><summary class="cursor-pointer rounded-sm text-sm font-semibold text-emerald-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-700">Ver detalles</summary><dl class="mt-4 space-y-2 text-sm">
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Fechas</dt><dd class="min-w-0 break-words text-right font-medium">11–20 septiembre 2026</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Plataformas</dt><dd class="min-w-0 break-words text-right font-medium">Instagram, TikTok y YouTube</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Alcance</dt><dd class="min-w-0 break-words text-right font-medium">50.000</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Conversión</dt><dd class="min-w-0 break-words text-right font-medium">0,12 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Costes</dt><dd class="min-w-0 break-words text-right font-medium">350 €</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">ROI</dt><dd class="min-w-0 break-words text-right font-medium">208,6 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Engagement</dt><dd class="min-w-0 break-words text-right font-medium">6 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Interacciones</dt><dd class="min-w-0 break-words text-right font-medium">3.000</dd></div>
+            </dl></details>
+          </li>
+          <li class="min-w-0 rounded-lg border border-zinc-200 bg-white p-5">
+            <div class="flex items-center gap-3"><img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&amp;fit=crop&amp;w=160&amp;h=160&amp;q=80" alt="Mochila urbana" loading="lazy" class="size-14 shrink-0 rounded-md object-contain"><div class="min-w-0"><h4 class="font-bold">Vuelta a la rutina</h4><p class="text-xs text-zinc-500">Producto C · Finalizada</p></div></div>
+            <dl class="mt-5 grid grid-cols-2 gap-4"><div><dt class="text-xs text-zinc-500">Comisiones</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">1.080 €</dd></div><div><dt class="text-xs text-zinc-500">Ventas</dt><dd class="mt-1 font-['Manrope'] text-2xl font-extrabold">90</dd></div><div class="col-span-2 flex justify-between gap-2 text-sm"><dt>Conversión</dt><dd class="font-bold">0,14 %</dd></div></dl>
+            <details class="mt-4 border-t border-zinc-100 pt-3"><summary class="cursor-pointer rounded-sm text-sm font-semibold text-emerald-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-700">Ver detalles</summary><dl class="mt-4 space-y-2 text-sm">
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Fechas</dt><dd class="min-w-0 break-words text-right font-medium">21–30 septiembre 2026</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Plataformas</dt><dd class="min-w-0 break-words text-right font-medium">Instagram, TikTok y YouTube</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Alcance</dt><dd class="min-w-0 break-words text-right font-medium">65.000</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Conversión</dt><dd class="min-w-0 break-words text-right font-medium">0,14 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Costes</dt><dd class="min-w-0 break-words text-right font-medium">300 €</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">ROI</dt><dd class="min-w-0 break-words text-right font-medium">260 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Engagement</dt><dd class="min-w-0 break-words text-right font-medium">8,69 %</dd></div>
+              <div class="grid grid-cols-2 gap-3"><dt class="text-zinc-500">Interacciones</dt><dd class="min-w-0 break-words text-right font-medium">5.650</dd></div>
+            </dl></details>
+          </li>
+        </ul>
+      </section>
+    </section>
+
+    <section aria-labelledby="titulo-alertas" class="border-t border-zinc-200 pt-7">
+      <h2 id="titulo-alertas" class="font-['Manrope'] text-lg font-bold">Tu próximo movimiento</h2>
+      <div class="mt-5 grid grid-cols-1 gap-8 md:grid-cols-2">
+        <div><h3 class="mb-4 text-xs font-bold uppercase tracking-widest text-zinc-500">Alertas del periodo</h3><ul class="space-y-4 text-sm"><li class="border-l-2 border-amber-500 pl-4"><p class="font-semibold">Atención · TikTok pierde conversión</p><p class="mt-1 leading-relaxed text-zinc-500">0,11 % frente a 0,16 % en agosto: caída del 31 %. Revisar la llamada a la acción y la página de destino.</p></li><li class="border-l-2 border-emerald-600 pl-4"><p class="font-semibold">Pico positivo · YouTube convierte más</p><p class="mt-1 leading-relaxed text-zinc-500">0,20 % frente a 0,14 % en agosto: subida del 43 %. Las reseñas largas muestran una señal favorable.</p></li></ul></div>
+        <div><h3 class="mb-4 text-xs font-bold uppercase tracking-widest text-zinc-500">Oportunidades de mejora</h3><ol class="space-y-4 text-sm"><li><p class="font-semibold">01 / Dar más espacio al producto C</p><p class="mt-1 leading-relaxed text-zinc-500">Iguala las comisiones de B con 50 € menos de coste y tiene el mayor engagement por producto.</p></li><li><p class="font-semibold">02 / Probar contenido de compra en TikTok</p><p class="mt-1 leading-relaxed text-zinc-500">El 8 % de engagement no se traduce en la mejor conversión. Probar una demostración con enlace al producto.</p></li></ol></div>
+      </div>
+    </section>
+    <footer class="flex flex-col justify-between gap-2 border-t border-zinc-200 pt-5 text-xs text-zinc-500 sm:flex-row"><p>Creator Studio · Lucía Vega</p><p>Datos ficticios · Importes en EUR · Tasas redondeadas</p></footer>
+  </main>
+</body>
+</html>
